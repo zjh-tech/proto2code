@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package pb;
+
+
+message c2s_client_session_ping {
+
+} 
+
+message s2c_client_session_pong {
+
+} 
