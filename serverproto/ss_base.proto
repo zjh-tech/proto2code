@@ -1,6 +1,7 @@
 syntax = "proto3";
 
 package pb;
+option go_package ="./;config";
 
 message s2s_server_session_veriry_req{
     uint64 server_id = 1;
